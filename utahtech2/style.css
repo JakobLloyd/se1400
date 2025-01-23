@@ -1,0 +1,23 @@
+#wrapper{
+    background-color: rgb(109, 130, 234);
+}
+
+.ut{
+display: inline;
+background-color: rgb(206, 13, 13);
+}
+
+header>h1 {
+    background-color: rgb(246, 232, 162);
+
+}
+
+main .blue{
+    background-color: rgb(229, 131, 131);
+
+}
+
+nav li{
+padding: 0;
+
+}
