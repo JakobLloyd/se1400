@@ -1,10 +1,11 @@
-#wrapper{
-    background-color: rgb(109, 130, 234);
+body{
+    background-color: F#FFFFFF;
+
 }
 
-.ut{
-display: inline;
-background-color: rgb(206, 13, 13);
+header{
+
+
 }
 
 header>h1 {
@@ -12,12 +13,30 @@ header>h1 {
 
 }
 
-main .blue{
-    background-color: rgb(229, 131, 131);
+
+nav{
+    padding: 0;
+    
+}
+
+header h2{
 
 }
 
-nav li{
-padding: 0;
+dt{
 
 }
+.ut{
+    display: inline;
+    background-color: rgb(206, 13, 13);
+    }
+#wrapper{
+    background-color: rgb(109, 130, 234);
+}
+
+footer{
+    
+}
+
+
+
