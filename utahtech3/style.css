@@ -15,6 +15,7 @@ header>h1 {
     background-image: url(images/utahtechlogo.svg);
     background-position: right, repeat none;
     background-origin: content-box;
+    margin-bottom: 0;
     padding-left: 1em;
     line-height: 140%;
     padding: .5rem;
@@ -56,6 +57,9 @@ footer{
     
 }
 #studenthero{
+    
+}
+#students{
     
 }
 #facultyhero{
