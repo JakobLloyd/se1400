@@ -37,13 +37,13 @@ nav a{
     text-decoration: none;
 }
 
-h3{
-    color: #003058;
-}
-
 header h2{
     color: #424242;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: #003058;
 }
 
 dt{
