@@ -1,10 +1,13 @@
 body{
-    background-color: bottom(#eeeeee, #ffffff);
+    background:linear-gradient(to bottom,#eeeeee, #ffffff);
     color: #666666;
     font-family: Arial, Helvetica, sans-serif;
     background-attachment: fixed;
 }
-
+main{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 header{
     background-color: #003058;
     color: #FFFFFF;
@@ -19,17 +22,26 @@ header>h1 {
     margin-bottom: 0;
     padding-left: 1em;
     line-height: 140%;
-    padding: .5rem;
 }
 
 nav{
     font-weight: bold;
     background-color: #F3F3F3;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
 }
-
+nav a{
+    text-decoration: none;
+}
 header h2{
     color: #424242;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h3{
+    color: #003058;
 }
 
 dt{
@@ -44,6 +56,7 @@ footer{
     font-size: .70rem;
     font-style: italic;
     text-align: center;
+    padding: 1rem;
 }
 #wrapper{
     background-color: #ffffff;
@@ -51,20 +64,28 @@ footer{
     max-width: 2046px;
     width: 80%;
     box-shadow: 0px 3px 3px rgba(66,66,66,0.3);
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0 auto;
 }
 #homehero{
-    
+    background-image: url(images/homehero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
 }
 #studenthero{
-    
-}
-#students{
-    
+    background-image: url(images/studenthero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
 }
 #facultyhero{
-    
+    background-image: url(images/facultyhero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
 }
 
 
