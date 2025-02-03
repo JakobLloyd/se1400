@@ -20,8 +20,9 @@ header>h1 {
     background-repeat: no-repeat;
     background-origin: content-box;
     margin-bottom: 0;
+    padding: .5rem;
     padding-left: 1em;
-    line-height: 140%;
+    line-height: 140%
 }
 
 nav{
