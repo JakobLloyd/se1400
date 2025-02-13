@@ -11,11 +11,21 @@ body{
 main{
     padding-left: 2rem;
     padding-right: 2rem;
+    grid-row: 4/5;
+    grid-column: 2/-2;
+    background-color: #ffffff;
 }
 header{
     background-color: #003058;
     color: #FFFFFF;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-row: 1/2;
+    grid-column: 2/-2;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 header h1 {
@@ -26,20 +36,39 @@ header h1 {
     background-repeat: no-repeat;
     padding-left: 1em;
     background-origin: content-box;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 nav{
     font-weight: bold;
     background-color: #F3F3F3;
-    padding-top: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 2rem;
+    position: sticky;
+    top:0;
+}
+
+nav a:hover{
+    background-color: #BA1C21;
+}
+
+nav ul{
+margin: 0px;
+padding: 0px;
+display: flex;
+flex-flow: row, nowrap;
+list-style-type: none;
+}
+
+nav ul li{
+width: 100%;
 }
 
 nav a{
     text-decoration: none;
+    color: #FFFFFF;
+    padding: 1rem 0rem;
+    display: block;
+    text-align: center;
+
 }
 
 header h2{
@@ -66,6 +95,8 @@ footer{
     font-style: italic;
     text-align: center;
     padding: 1rem;
+    grid-row: 5/6;
+    grid-column: 2/-2;
 }
 
 #wrapper{
@@ -74,12 +105,19 @@ footer{
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 }
 
+main img{
+    padding-left: 2rem;
+    float:right;
+}
+
 #homehero{
     background-image: url(images/homehero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
+    grid-row: 3/4 ;
+    grid-column: 2/-2;
 }
 
 #studenthero{
@@ -88,6 +126,8 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
+    grid-row: 3/4 ;
+    grid-column: 2/-2;
 }
 
 #facultyhero{
@@ -96,6 +136,8 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
+    grid-row: 3/4 ;
+    grid-column: 2/-2;
 }
 
 
