@@ -41,9 +41,13 @@ header h1 {
 
 nav{
     font-weight: bold;
-    background-color: #F3F3F3;
+    background-color: #424242;
     position: sticky;
+    margin: 0;
+    padding: 0;
     top:0;
+    grid-row: 2/3;
+    grid-column: 2/-2;
 }
 
 nav a:hover{
@@ -51,15 +55,15 @@ nav a:hover{
 }
 
 nav ul{
-margin: 0px;
-padding: 0px;
-display: flex;
-flex-flow: row, nowrap;
-list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
 }
 
 nav ul li{
-width: 100%;
+    width: 100%;
 }
 
 nav a{
@@ -101,7 +105,7 @@ footer{
 
 #wrapper{
     display: grid;
-    grid-auto-rows: 0px auto;
+    grid-auto-rows: minmax(0px, auto);
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 }
 
