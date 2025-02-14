@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body{
     background:linear-gradient(to bottom,#eeeeee, #ffffff);
     color: #666666;
@@ -8,6 +9,7 @@ body{
     background-attachment: fixed;
     margin: 0px;
 }
+
 main{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -15,6 +17,7 @@ main{
     grid-column: 2/-2;
     background-color: #ffffff;
 }
+
 header{
     background-color: #003058;
     color: #FFFFFF;
