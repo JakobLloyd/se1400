@@ -20,20 +20,20 @@ nav{
 }
 
 #img{
-    background-color: rgba(255, 0, 0, 0.3);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
+    background-color: rgba(255, 0, 0, 0.3);
     grid-row: 1/4;
     grid-column: 1/-1;
 }
 
 main{
     height: 1200px;
+    background-color: rgba(32, 255, 32, 0.3);
     grid-row: 3/6;
     grid-column: 2/-2;
-    background-color: rgba(32, 255, 32, 0.3);
 }
 
 footer{
