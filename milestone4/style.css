@@ -7,16 +7,38 @@ body{
 }
 
 header{
-    background-color: rgba(255, 16, 96, 0.3);
+    background-color: #2D2E2F;
     grid-row: 1/2;
     grid-column: 1/-1;
 }
 
 nav{
     height: 75px;
-    background-color: rgba(40, 54, 253, 0.3);
+    background-color: #2D2E2F;
     grid-row: 1/2;
     grid-column: 2/-2;
+    position: relative;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+}
+
+nav ul li{
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #CD9251;
+    padding: 1rem 0rem;
+    display: block;
+    text-align: center;
+
 }
 
 #img{
@@ -24,21 +46,36 @@ nav{
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
-    background-color: rgba(255, 0, 0, 0.3);
+    background-image: url(images/pexels-ivan-samkov-4458205.jpg);
     grid-row: 1/4;
     grid-column: 1/-1;
 }
 
 main{
+    flex: auto;
     height: 1200px;
-    background-color: rgba(32, 255, 32, 0.3);
+    background-color: #2D2E2F;
     grid-row: 3/6;
     grid-column: 2/-2;
 }
 
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #518CCD;
+    font-size: 2em;
+}
+
+p{
+    color: #CD9251;
+    font-size: 1.5em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 footer{
     height: 200px;
-    background-color: rgba(246, 250, 0, 0.3);
+    background-color: #2D2E2F;
     grid-column: 1/-1;
     grid-row: 6/7;
 }
@@ -49,4 +86,11 @@ footer{
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
     grid-template-rows: auto auto 75px auto auto auto 200px;
     text-align: center;
+}
+
+#logo{
+    width: auto;
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    height: auto;
 }
