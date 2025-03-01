@@ -73,8 +73,8 @@ nav a:hover{
 }
 
 main{
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     flex: auto;
     height: auto;
     background-color: #2D2E2F;
