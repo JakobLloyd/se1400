@@ -74,7 +74,7 @@ main{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     flex: auto;
-    height: 1200px;
+    height: auto;
     background-color: #2D2E2F;
     grid-row: 3/6;
     grid-column: 2/-2;
@@ -184,6 +184,37 @@ grid-row: 1/6;
   }
   
   .image-item p {
+    color: #CD9251;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .content-image {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .content-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .content-text {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .content-text p {
     color: #CD9251;
     font-size: 1.5rem;
     margin: 0;
