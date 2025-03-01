@@ -37,11 +37,13 @@ justify-content: center;
 align-items: center;
 list-style-type: none;
 width: 100%;
+max-width: 1200px;
 }
 
 nav ul li{
-flex: 1;
+flex: none;
 text-align: center;
+margin: 0 14px;
 }
 
 nav a{
@@ -53,6 +55,7 @@ padding: 1rem;
 display: block;
 text-align: center;
 width: 100%;
+white-space: nowrap;
 
 }
 
@@ -110,7 +113,10 @@ grid-auto-rows: minmax(0px, auto);
 grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 grid-template-rows: auto auto 75px auto auto auto 200px;
 text-align: center;
-background-color: #fff;
+background-color: #C6CDD5;
+width: 100%;
+max-width: 100%;
+overflow: hidden;
 }
 
 .left-side{
@@ -176,7 +182,6 @@ border: 5px solid #CD9251;
 background-color: #C6CDD5;
 padding: 10px;
 border-radius: 10px;
-display: inline-block;
 white-space: nowrap;
 width: 325px;
 text-align: center;
