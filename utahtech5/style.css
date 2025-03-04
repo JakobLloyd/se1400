@@ -159,5 +159,12 @@ main img{
     grid-column: 1/-1;
 }
 
+@media only screen and (max-width: 1100px){
 
+    #wrapper{
+        display: grid;
+        grid-auto-rows: minmax(0px, auto);
+        grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);
+    }
 
+}
