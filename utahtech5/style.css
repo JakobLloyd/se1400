@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(to bottom,#eeeeee, #ffffff);
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+main{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    grid-row: 4/5;
+    grid-column: 2/-2;
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #003058;
+    color: #FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-row: 1/2;
+    grid-column: 2/-2;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header h1 {
+    line-height: 140%;
+    padding: .5rem;
+    background-image: url(images/utahtechlogo.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-left: 1em;
+    background-origin: content-box;
+    margin: 0;
+}
+
+nav{
+    font-weight: bold;
+    background-color: #424242;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    top:0;
+    grid-row: 2/3;
+    grid-column: 2/-2;
+}
+
+nav a:hover{
+    background-color: #BA1C21;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+}
+
+nav ul li{
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1rem 0rem;
+    display: block;
+    text-align: center;
+
+}
+
+header h2{
+    color: #424242;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: #003058;
+}
+
+dt{
+    font-weight: bold;
+    color: #003058;
+}
+
+.ut{
+    font-weight: bold;
+    color: #BA1C21;
+}
+
+footer{
+    font-size: .70rem;
+    font-style: italic;
+    text-align: center;
+    padding: 1rem;
+    grid-row: 5/6;
+    grid-column: 2/-2;
+}
+
+#wrapper{
+    display: grid;
+    grid-auto-rows: minmax(0px, auto);
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
+main img{
+    padding-left: 2rem;
+    float:right;
+}
+
+#homehero{
+    background-image: url(images/homehero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    grid-row: 3/4 ;
+    grid-column: 2/-2;
+}
+
+#studenthero{
+    background-image: url(images/studenthero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    grid-row: 3/4 ;
+    grid-column: 2/-2;
+}
+
+#facultyhero{
+    background-image: url(images/facultyhero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    grid-row: 3/4 ;
+    grid-column: 2/-2;
+}
+
+
+

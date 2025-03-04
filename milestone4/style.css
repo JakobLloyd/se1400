@@ -29,7 +29,7 @@ nav {
     grid-column: 1 / -1;
 }
 
-nav ul{
+nav ul {
     margin: 0 10% 0 5%;
     padding: 0;
     display: flex;
@@ -40,13 +40,13 @@ nav ul{
     max-width: 1200px;
 }
 
-nav ul li{
+nav ul li {
     flex: none;
     text-align: center;
     margin: 0 12px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
@@ -58,11 +58,11 @@ nav a{
     white-space: nowrap;
 }
 
-nav a:hover{
+nav a:hover {
     color: #518CCD;
 }
 
-#img{
+#img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -72,7 +72,7 @@ nav a:hover{
     grid-column: 1/-1;
 }
 
-main{
+main {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     flex: auto;
@@ -82,14 +82,14 @@ main{
     grid-column: 2/-2;
 }
 
-h1{
+h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: #518CCD;
     font-size: 2em;
 }
 
-p{
+p {
     color: #CD9251;
     font-size: 1.5em;
     padding-left: 5%;
@@ -158,7 +158,7 @@ footer {
     margin-left: -30px;
 }
 
-#wrapper{
+#wrapper {
     display: grid;
     grid-auto-rows: minmax(0px, auto);
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
@@ -170,19 +170,19 @@ footer {
     overflow: hidden;
 }
 
-.left-side{
+.left-side {
     background-color: #C6CDD5;
     grid-column: 1/6;
     grid-row: 1/6;
 }
 
-.right-side{
+.right-side {
     background-color: #C3C5BE;
     grid-column: 6/-1;
     grid-row: 1/6;
 }
 
-.logo img{
+.logo img {
     width: 75px;
     margin: 20%;
 }
