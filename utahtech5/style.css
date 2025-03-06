@@ -177,6 +177,10 @@ main img{
         position: static;
     }
 
+    nav ul{
+        flex-flow: column nowrap;
+    }
+
     #homehero{
         grid-row: 2/3;
         grid-column: 5/8;
