@@ -168,3 +168,38 @@ main img{
     }
 
 }
+
+@media only screen and (max-width: 900px){
+
+    nav{
+        grid-row: 2/3;
+        grid-column: 1/5;
+        position: static;
+    }
+
+    #homehero{
+        grid-row: 2/3;
+        grid-column: 5/8;
+        height: auto;
+    }
+
+    #studenthero{
+        grid-row: 2/3;
+        grid-column: 5/8;
+        height: auto;
+    }
+
+    #facultyhero{
+        grid-row: 2/3;
+        grid-column: 5/8;
+        height: auto;
+    }
+
+    main img{
+        float: none;
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+    }
+
+}
