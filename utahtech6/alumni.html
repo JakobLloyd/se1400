@@ -12,7 +12,7 @@
         <div id="bluebar"></div>
         <div id="greybar"></div>
         <header>
-         <h1 class=".blue"><a href="index.html">Utah Tech University</a></h1>
+         <h1 class="blue"><a href="index.html">Utah Tech University</a></h1>
         </header>
         <nav>
             <ul>
@@ -26,22 +26,25 @@
         <main>
             <h2>Join Alumni Mailing List</h2>
             <h3>Request Alumni Newsletter</h3>
-            <form action="https://kearl.net/se1400/mail.php">
+            <form action="https://kearl.net/se1400/mail.php" method="post">
 
-                <label for="FName">First Name:</label>
-                <input type="text" id="FName" name="FName" required>
+                <label for="myFName">* First Name:</label>
+                <input type="text" id="myFName" name="myFName" required>
 
-                <label for="LName">Last Name:</label>
-                <input type="text" id="LName" name="LName" required>
+                <label for="myLName">* Last Name:</label>
+                <input type="text" id="myLName" name="myLName" required>
 
-                <label for="myEmail">E-mail:</label>
+                <label for="myEmail">* E-mail:</label>
                 <input type="email" id="myEmail" name="myEmail" required>
                 
                 <label for="myPhone">Phone:</label>
-                <input type="text" id="myPhone" name="myPhone" required>
+                <input type="tel" id="myPhone" name="myPhone">
 
-                <label for="myComments">Comments:</label>
-                <textarea id="myComments" name="myComments" rows="2" cols="20"></textarea>
+                <label for="myGradDate">Graduation Date:</label>
+                <input type="date" id="myGradDate" name="myGradDate">
+
+                <label for="myComments">* Comments:</label>
+                <textarea id="myComments" name="myComments" rows="2" cols="20" required></textarea>
 
                 <input type="submit" id="mySubmit" value="Submit">
 
