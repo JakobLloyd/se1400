@@ -286,81 +286,108 @@ footer {
     margin: 0;
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px) {
     #wrapper {
         grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 128px)) minmax(0px, 1fr);
     }
 
-    main{
+    main {
         grid-column: 2/-2;
     }
 
     .left-side,
-    .right-side{
+    .right-side {
         display: none;
     }
 
-    .image-container{
+    .image-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .image-item{
+    .image-item {
         margin: 10px 0;
     }
 
-    .content-section{
+    .content-section {
         flex-direction: column;
         height: auto;
     }
 
     .content-image,
-    .content-text{
+    .content-text {
         max-width: 100%;
         padding: 0;
     }
 
-    .content-text{
+    .content-text {
         margin-top: 20px;
     }
 }
 
-@media only screen and (max-width: 768px){
-    #wrapper{
-        grid-template-columns: 1fr;
+@media only screen and (max-width: 768px) {
+    html, body, #wrapper, header, nav, nav ul {
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
-    main{
+    #wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto;
+    }
+
+    header {
+        grid-row: 1;
+    }
+
+    nav {
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        background-color: #2D2E2F;
+    }
+
+    nav ul li:first-child {
+        display: none;
+    }
+
+    nav ul li {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        padding: 12px 0 !important;
+        font-size: 1.2rem;
+        border-top: 1px solid rgba(205, 146, 81, 0.3);
+    }
+
+    nav ul li:first-child a {
+        border-top: none;
+    }
+
+    main {
         grid-column: 1/-1;
     }
 
-    nav ul{
-        flex-direction: column;
-        margin: 0;
-    }
-
-    nav ul li{
-        margin: 10px 0;
-    }
-
-    nav a{
-        font-size: 1.2rem;
-    }
-
-    .footer-content{
+    .footer-content {
         grid-template-columns: 1fr;
     }
 
-    .footer-right{
+    .footer-right {
         justify-content: center;
         margin-left: 0;
     }
 
-    .footer-item p{
+    .footer-item p {
         margin-left: 0;
     }
-
-    .image-item h2{
+    
+    .image-item h2 {
         width: 100%;
     }
 }
