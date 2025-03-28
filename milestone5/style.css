@@ -353,7 +353,6 @@ footer {
     }
 }
 
-
 @media only screen and (max-width: 768px) {
     html, body, #wrapper, header, nav, nav ul {
         margin: 0 !important;
