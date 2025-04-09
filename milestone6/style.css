@@ -287,6 +287,10 @@ footer {
     margin: 0;
 }
 
+.left-paragraph{
+    text-align: left;
+}
+
 @media only screen and (max-width: 992px) {
     #wrapper {
         grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 128px)) minmax(0px, 1fr);
