@@ -190,6 +190,16 @@ main img{
     float:right;
 }
 
+#shoppingcart img{
+    width: 100%;
+}
+
+#shoppingcart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
 #homehero{
     background-image: url(images/homehero.jpg);
     background-size: cover;
@@ -299,6 +309,10 @@ main img{
         height: auto;
     }
 
+    #shoppingcart{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     main img{
         float: none;
         width: 100%;
@@ -338,6 +352,10 @@ main img{
 
     #shophero{
         display: none;
+    }
+
+    #shoppingcart{
+        grid-template-columns: 1fr;
     }
 
 }
