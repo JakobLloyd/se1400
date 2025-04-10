@@ -89,8 +89,25 @@ h1 {
     font-size: 2em;
 }
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #518CCD;
+    font-size: 2em;
+    padding-left: 5%;
+    font-weight: bold;
+}
+
 p {
     color: #CD9251;
+    font-size: 1.5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5px;
+}
+
+ul{
+    color: #518CCD;
     font-size: 1.5em;
     padding-left: 5%;
     padding-right: 5%;
