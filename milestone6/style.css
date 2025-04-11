@@ -115,12 +115,29 @@ p {
     margin-top: 5px;
 }
 
-ul{
-    color: #518CCD;
+main ul {
+    color: #CD9251;
     font-size: 1.5em;
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 5px;
+    list-style-type: none; 
+}
+
+
+main ul li {
+    margin-bottom: 0.5em;
+    position: relative;
+    padding-left: 1em;
+}
+
+main ul li::before {
+    content: "•";
+    color: #CD9251;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 footer {
